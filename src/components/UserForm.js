@@ -48,6 +48,7 @@ function UserForm({ onSubmit }) {
                 <input
                     type="number"
                     required
+                    min="1"
                     className="border p-2 w-full"
                     value={formData.height}
                     onChange={(e) => setFormData({...formData, height: Number(e.target.value)})}
@@ -58,6 +59,7 @@ function UserForm({ onSubmit }) {
                 <label className="block">Weight (kg):</label>
                 <input
                     type="number"
+                    min="1"
                     required
                     className="border p-2 w-full"
                     value={formData.weight}
