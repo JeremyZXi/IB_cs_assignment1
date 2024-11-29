@@ -94,6 +94,9 @@ function App() {
                 choices={foodChoices}
             />
         )}
+        <footer className="">Computer Science Class work by <a href="https://github.com/JeremyZXi" className="text-blue-600">JeremyZXi</a> & <a href="https://github.com/Wenxin777777" className="text-blue-600">Wenxin777777</a></footer>
+        <footer className="">This product is intended solely for educational purposes in computer science. The results generated do not hold any medical significance.</footer>
+        <footer className=""> Source code available on <a href="https://github.com/JeremyZXi/IB_cs_assignment1" className="text-blue-600">Github</a></footer>
       </div>
   );
 }
