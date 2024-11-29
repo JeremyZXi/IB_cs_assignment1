@@ -24,6 +24,7 @@ function FoodSelection({ onSubmit }) {
 
     return (
         <div className="space-y-6">
+            <p className="text-xl">You may select more than one option per category</p>
             {Object.entries(categories).map(([category, items]) => (
                 <div key={category} className="space-y-2">
                     <h3 className="text-lg font-semibold capitalize">{category}</h3>
